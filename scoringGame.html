@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoring Game</title>
+    <link rel="stylesheet" href="ScoringGame.css">
+</head>
+
+<body>
+    <div class="all">
+       <div class="score">
+        <h2 class="score1">0</h2>
+         <h2 class="mid">-</h2>
+        <h2 class="score2">0</h2>
+    </div>
+    <div class="comment">
+        <h3 id="comm">Use the buttons below to score!</h3>
+    </div>
+    <div class="select">
+        <label for="win"><b>Score to win</b></label>
+        <select name="numberToWin" id="win" required>
+            <option value="10">?</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+   </div>
+    <div class="contbar">
+        <div class="buttdiv">
+            <button class="button" id="p1">+Player1</button>
+        </div>
+        <div class="buttdiv">
+            <button class="button" id="p2">+Player2</button>
+        </div>
+        <div class="buttdiv">
+            <button class="button" id="set">Reset</button>
+        </div>
+    </div>
+    <script src="ScoringGame.js"></script>
+</body>
+
+</HTML>
